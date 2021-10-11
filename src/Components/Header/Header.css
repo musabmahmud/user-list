@@ -1,0 +1,7 @@
+@import url(./../../Font/Font.css);
+.Header{
+    padding: 20px;
+    background-color: aquamarine;
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+}
