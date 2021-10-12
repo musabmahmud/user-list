@@ -1,10 +1,10 @@
 import React from 'react';
 import "./Header.css";
 
-const Header = () => {
+const Header = (props) => {
     return (
         <div className="Header">
-            <h1>The List of Users</h1>
+            <h1>The List of Users {props.length}</h1>
         </div>
     );
 };
