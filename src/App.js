@@ -6,8 +6,6 @@ import Content from "./Components/Content/Content";
 import Data from "./Data/User";
 import { useEffect, useState } from 'react';
 
-
-
 function App() {
 
 const [users, setUsers] = useState([]);
@@ -25,7 +23,8 @@ const totalCart = (props) =>{
 
 const totalCost = hires.reduce( (sum, hires) => {
   let number = hires.balance.substring(1);
-  return parseFloat(sum)+parseFloat(number);
+  let value = parseFloat(number);
+  return sum+Math.round(value);
 }, 0);
 
 return (

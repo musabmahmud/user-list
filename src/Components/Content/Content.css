@@ -54,9 +54,9 @@ button:hover{
     transition: .6s all ease-in-out;
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .content{
         display: block;
         margin: 20px auto;
     }
-} */
+}
